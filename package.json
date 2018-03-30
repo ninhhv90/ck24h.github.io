@@ -1,0 +1,23 @@
+{
+  "name": "google-sheets-json-api",
+  "version": "1.0.0",
+  "description": "Mini API for Google Spreadsheets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "./node_modules/nodemon/bin/nodemon index.js"
+  },
+  "author": "Jesper Orb <jesperorb@gmail.com> (https://jesperorb.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "dotenv": "^5.0.1",
+    "google-spreadsheet": "^2.0.4"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
